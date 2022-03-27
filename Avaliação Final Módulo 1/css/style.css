@@ -1,3 +1,6 @@
+html {
+  background-color: aliceblue;
+}
 body {
   display: flex;
   justify-content: space-evenly;
@@ -25,28 +28,52 @@ nav {
   color: white;
 }
 
-#imagem {
-  margin-top: 70%;
-  width: 65%;
-  border-radius: 100%;
-  border-style: dashed;
+.sobrecor:hover {
+  font-size: 20px;
+  color: wheat;
+}
+
+.objeticor:hover {
+  font-size: 20px;
+  color: wheat;
+}
+
+.conhecicor:hover {
+  font-size: 20px;
+  color: wheat;
+}
+
+.imagem {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 100px;
+  margin-left: 25px;
+  margin-top: 100px;
+  background-image: url(../images/eu.png);
 }
 main {
   margin-top: 200px;
-  background-color: aqua;
 }
 
 #nome {
   color: rgb(170, 5, 5);
   font-size: 300%;
+  text-transform: uppercase;
 }
 
 #infos {
-  color: rgb(255, 115, 115);
+  color: #e61818;
   font-size: 17px;
   margin-top: 0px;
 }
 
 #descriçao {
   font-size: 12px;
+  color: rgb(116, 116, 116);
+}
+
+a {
+  text-decoration: none;
+  color: #e61818;
 }
